@@ -72,9 +72,15 @@
   transform: scale(1.05);
 }
 
-.player-indicator span {
+.player-indicator .player-name {
   font-weight: 600;
   font-size: 1rem;
+}
+
+.player-indicator .player-wins {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  font-weight: 500;
 }
 
 .winner-badge {
